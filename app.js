@@ -19,11 +19,11 @@ document.documentElement.style.setProperty(
 // ==== КАТАЛОГ ПК (можно вынести в отдельный JSON) ====
 const CATALOG = [
     {
-        id: "gaming_pro",
-        name: "Gaming Pro X",
-        desc: "RTX 4070, i7-13700K, 32GB DDR5, 1TB NVMe",
-        price: 185000,
-        image: "https://via.placeholder.com/400x200/4a86ff/ffffff?text=Gaming+Pro+X"
+        id: "PC_1",
+        name: "Gaming light",
+        desc: "Видеокарта: NVIDIА GеFоrсе RТХ 3060 Тi Gigаbytе АОRUS Еlitе\nПроцессор: АМD Ryzеn 5 3600 \nОЗУ: 16 GВ DDR4 Соrsаir Vеngеаnсе\nМатеринская плата: АSRосk В550 Рhаntоm Gаming 4\nНакопитель:M.2 NVМе SSD АDАТА Lеgеnd 710 512 GВ",
+        price: 58000,
+        image: "images/Gaming light.jpg"
     },
     {
         id: "office_basic",
