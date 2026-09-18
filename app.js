@@ -98,4 +98,4 @@ catalogEl.addEventListener('click', async (e) => {
 });
 
 // Заменяем URL бэкенда (в реальном проекте — через переменную окружения)
-const BACKEND_URL = 'https://your-backend.railway.app';
+const BACKEND_URL = 'pcbot-production-7c6d.up.railway.app';
