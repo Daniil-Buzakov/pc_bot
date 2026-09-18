@@ -3,6 +3,9 @@ const tg = window.Telegram.WebApp;
 tg.ready();
 tg.expand();
 
+// Заменяем URL бэкенда (в реальном проекте — через переменную окружения)
+const BACKEND_URL = 'https://pcbot-production-7c6d.up.railway.app';
+
 // Настройка под тему
 document.documentElement.style.setProperty(
     '--tg-theme-bg-color',
@@ -97,5 +100,4 @@ catalogEl.addEventListener('click', async (e) => {
     }
 });
 
-// Заменяем URL бэкенда (в реальном проекте — через переменную окружения)
-const BACKEND_URL = 'https://pcbot-production-7c6d.up.railway.app';
+
