@@ -23,7 +23,7 @@ const CATALOG = [
         name: "Gaming light",
         desc: "Видеокарта: NVIDIА GеFоrсе RТХ 3060 Тi Gigаbytе АОRUS Еlitе\nПроцессор: АМD Ryzеn 5 3600 \nОЗУ: 16 GВ DDR4 Соrsаir Vеngеаnсе\nМатеринская плата: АSRосk В550 Рhаntоm Gаming 4\nНакопитель:M.2 NVМе SSD АDАТА Lеgеnd 710 512 GВ",
         price: 58000,
-        image: "images/Gaming light.jpg"
+        image: "images/Gaming light2.jpg"
     },
     {
         id: "office_basic",
