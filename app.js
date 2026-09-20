@@ -23,7 +23,9 @@ const CATALOG = [
         name: "Gaming rain",
         desc: "Видеокарта: NVIDIА GеFоrсе RТХ 3060 Тi Gigаbytе АОRUS Еlitе\nПроцессор: АМD Ryzеn 5 3600 \nОЗУ: 16 GВ DDR4 Соrsаir Vеngеаnсе\nМатеринская плата: АSRосk В550 Рhаntоm Gаming 4\nНакопитель:M.2 NVМе SSD АDАТА Lеgеnd 710 512 GВ",
         price: 60000,
-        image: "images/Gaming rain.png"
+        image: "images/Gaming rain.png",
+        cpu: "ryzen5_3600",
+        gpu: "rtx3060ti"
     },
     {
         id: "PC_2",
@@ -31,6 +33,8 @@ const CATALOG = [
         desc: "Видеокарта: GeForce RTX 5060 8 ГБ Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель: 512 GB M.2 PCIe",
         price: 110000,
         image: "images/White Winter.png"
+        cpu: "i5_14400f",
+        gpu: "rtx5060"
     },
     {
         id: "PC_3",
@@ -38,6 +42,8 @@ const CATALOG = [
         desc: "Видеокарта: GeForce RTX 5050 8 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель: 1000 GB M.2 PCIe",
         price: 106000,
         image: "images/Black Storm.png"
+        cpu: "ryzen5_5500",
+        gpu: "rtx5050"
     },
     {
         id: "PC_4",
@@ -45,6 +51,8 @@ const CATALOG = [
         desc: "Видеокарта: GeForce RTX 3050 6 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI PRO A520M-S\nНакопитель: 512 GB M.2 PCIe",
         price: 83000,
         image: "images/Black pearl.png"
+        cpu: "ryzen5_5500",
+        gpu: "rrtx3050"
     },
     {
         id: "PC_5",
@@ -52,6 +60,8 @@ const CATALOG = [
         desc: "Видеокарта: GeForce RTX 5060 Ti INFINITY 3 OC 8 ГБ\nПроцессор: AMD Ryzen 5 7500F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MAXSUN eSport B650M WIFI ICE\nНакопитель: 1000 GB M.2 PCIe",
         price: 146000,
         image: "images/Sea wind.png"
+        cpu: "ryzen5_7500f",
+        gpu: "rtx5060ti"
     },
 ];
 
