@@ -1,46 +1,34 @@
-/* ============================================
-   БАЗА
-   ============================================ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--tg-theme-bg-color, #ffffff);
     color: var(--tg-theme-text-color, #000000);
     padding: 16px;
     padding-bottom: 40px;
     min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: transparent;
-    overflow-x: hidden;
 }
 
-/* ============================================
-   ШАПКА С ПЛАВАЮЩЕЙ ИКОНКОЙ
-   ============================================ */
 .header {
     text-align: center;
     margin-bottom: 24px;
     padding: 12px 0;
 }
 
+/* ИКОНКА С ПАРЕНИЕМ */
 .header-icon {
     width: 96px;
     height: 96px;
     object-fit: contain;
     margin-bottom: 8px;
     display: inline-block;
-    background: transparent;
     animation: floatUpDown 3s ease-in-out infinite;
     filter: drop-shadow(0 6px 12px rgba(74, 134, 255, 0.25));
+    background: transparent;
 }
 
 @keyframes floatUpDown {
@@ -53,13 +41,11 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 4px;
-    line-height: 1.2;
 }
 
 .subtitle {
     font-size: 14px;
     opacity: 0.6;
-    line-height: 1.3;
 }
 
 /* ============================================
@@ -80,7 +66,7 @@ body {
     justify-content: center;
     cursor: pointer;
     z-index: 50;
-    transition: transform 0.15s ease, background 0.2s ease;
+    transition: transform 0.15s, background 0.2s;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
@@ -109,7 +95,7 @@ body {
 }
 
 /* ============================================
-   МОДАЛЬНОЕ ОКНО ФИЛЬТРА
+   МОДАЛКА ФИЛЬТРА
    ============================================ */
 .filter-modal {
     position: fixed;
@@ -170,11 +156,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.15s ease;
-}
-
-.filter-close:active {
-    transform: scale(0.9);
 }
 
 .filter-section {
@@ -187,8 +168,6 @@ body {
     font-weight: 600;
     opacity: 0.7;
     margin-bottom: 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
 }
 
 .filter-select {
@@ -203,13 +182,9 @@ body {
     cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
-
-    /* Кастомная стрелочка */
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 16px center;
-    transition: border-color 0.2s ease;
 }
 
 .filter-select:focus {
@@ -233,7 +208,7 @@ body {
     font-weight: 600;
     font-family: inherit;
     cursor: pointer;
-    transition: transform 0.15s ease, opacity 0.2s ease;
+    transition: transform 0.15s, opacity 0.2s;
 }
 
 .filter-reset {
@@ -264,47 +239,33 @@ body {
     background: var(--tg-theme-secondary-bg-color, #f5f5f5);
     border-radius: 16px;
     padding: 16px;
-    transition: transform 0.2s ease;
-    animation: cardFadeIn 0.3s ease;
-}
-
-@keyframes cardFadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(8px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    transition: transform 0.2s;
 }
 
 .pc-card:active {
-    transform: scale(0.99);
+    transform: scale(0.98);
 }
 
 .pc-image {
     width: 100%;
-    height: 180px;
+    height: 160px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 12px;
     background: var(--tg-theme-hint-color, #e0e0e0);
-    display: block;
 }
 
 .pc-name {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 8px;
-    line-height: 1.3;
+    margin-bottom: 6px;
 }
 
 .pc-desc {
-    font-size: 13px;
-    line-height: 1.6;
-    opacity: 0.8;
-    margin-bottom: 12px;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 8px;
+    line-height: 1.4;
     white-space: pre-line;
 }
 
@@ -324,14 +285,12 @@ body {
     color: var(--tg-theme-button-text-color, #ffffff);
     font-size: 16px;
     font-weight: 600;
-    font-family: inherit;
     cursor: pointer;
-    transition: opacity 0.2s ease, transform 0.15s ease;
+    transition: opacity 0.2s;
 }
 
 .buy-btn:active {
-    opacity: 0.85;
-    transform: scale(0.98);
+    opacity: 0.8;
 }
 
 .buy-btn:disabled {
@@ -339,9 +298,7 @@ body {
     cursor: not-allowed;
 }
 
-/* ============================================
-   ПУСТОЙ РЕЗУЛЬТАТ ФИЛЬТРА
-   ============================================ */
+/* "Ничего не найдено" */
 .empty {
     text-align: center;
     padding: 60px 20px;
@@ -351,7 +308,7 @@ body {
 }
 
 /* ============================================
-   ТОСТ (уведомление)
+   ТОСТ
    ============================================ */
 .toast {
     position: fixed;
@@ -359,39 +316,18 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(100px);
     background: #2ecc71;
-    color: #ffffff;
+    color: #fff;
     padding: 14px 24px;
     border-radius: 12px;
     font-size: 14px;
     font-weight: 500;
     opacity: 0;
     transition: all 0.3s ease;
-    z-index: 200;
+    z-index: 100;
     white-space: nowrap;
-    max-width: calc(100vw - 32px);
-    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.35);
 }
 
 .toast.show {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
-}
-
-/* ============================================
-   АДАПТАЦИЯ ПОД МАЛЕНЬКИЕ ЭКРАНЫ
-   ============================================ */
-@media (max-width: 360px) {
-    .header-icon {
-        width: 80px;
-        height: 80px;
-    }
-    .header h1 {
-        font-size: 20px;
-    }
-    .pc-name {
-        font-size: 17px;
-    }
-    .pc-price {
-        font-size: 19px;
-    }
 }
