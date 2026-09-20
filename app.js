@@ -52,7 +52,7 @@ const CATALOG = [
         price: 83000,
         image: "images/Black pearl.png",
         cpu: "ryzen5_5500",
-        gpu: "rrtx3050"
+        gpu: "rtx3050"
     },
     {
         id: "PC_5",
