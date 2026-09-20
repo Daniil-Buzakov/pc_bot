@@ -8,15 +8,55 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
+
     <header class="header">
         <img src="images/pc-icon.png" alt="ПК" class="header-icon">
         <h1>Выбери свой ПК</h1>
         <p class="subtitle">Мы свяжемся с тобой после выбора</p>
     </header>
 
+    <!-- Кнопка-иконка фильтра -->
+    <button class="filter-toggle" id="filterToggle" aria-label="Фильтр">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="7" y1="12" x2="17" y2="12"></line>
+            <line x1="10" y1="18" x2="14" y2="18"></line>
+        </svg>
+        <span class="filter-badge" id="filterBadge"></span>
+    </button>
+
+    <!-- Модальное окно фильтра -->
+    <div class="filter-modal" id="filterModal">
+        <div class="filter-modal-content">
+            <div class="filter-modal-header">
+                <h2>Фильтр</h2>
+                <button class="filter-close" id="filterClose">✕</button>
+            </div>
+
+            <div class="filter-section">
+                <label class="filter-section-title">Процессор</label>
+                <select class="filter-select" id="filterCpu">
+                    <option value="">Любой</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <label class="filter-section-title">Видеокарта</label>
+                <select class="filter-select" id="filterGpu">
+                    <option value="">Любая</option>
+                </select>
+            </div>
+
+            <div class="filter-actions">
+                <button class="filter-reset" id="filterReset">Сбросить</button>
+                <button class="filter-apply" id="filterApply">Применить</button>
+            </div>
+        </div>
+    </div>
+
     <main class="catalog" id="catalog"></main>
 
-    <div class="toast" id="toast">Заявка отправлена! Мы скоро напишем 😉</div>
+    <div class="toast" id="toast">Заявка отправлена! Мы скоро напишем </div>
 
     <script src="app.js"></script>
 </body>
