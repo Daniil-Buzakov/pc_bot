@@ -22,23 +22,37 @@ const CATALOG = [
         id: "PC_1",
         name: "Gaming rain",
         desc: "Видеокарта: NVIDIА GеFоrсе RТХ 3060 Тi Gigаbytе АОRUS Еlitе\nПроцессор: АМD Ryzеn 5 3600 \nОЗУ: 16 GВ DDR4 Соrsаir Vеngеаnсе\nМатеринская плата: АSRосk В550 Рhаntоm Gаming 4\nНакопитель:M.2 NVМе SSD АDАТА Lеgеnd 710 512 GВ",
-        price: 58000,
+        price: 60000,
         image: "images/Gaming rain.png"
     },
     {
         id: "PC_2",
         name: "White Winter",
-        desc: "Видеокарта: Palit GeForce RTX 5060 Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: 16 GB ADATA XPG Lancer White\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель:M.2 NVМе SSD 500GB ADATA LEGEND 860",
-        price: 96500,
+        desc: "Видеокарта: GeForce RTX 5060 8 ГБ Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель: 512 GB M.2 PCIe",
+        price: 110000,
         image: "images/White Winter.png"
     },
     {
         id: "PC_3",
         name: "Black Storm",
-        desc: "Видеокарта: MSI GeForce RTX 5050 8G SHADOW 2X OC\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 ГБ 3200 МГц Kingston HyperX FURY Black\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель:M.2 NVМе SSD Kingston 1000 Gb NV3 Blue",
-        price: 82000,
+        desc: "Видеокарта: GeForce RTX 5050 8 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель: 1000 GB M.2 PCIe",
+        price: 106000,
         image: "images/Black Storm.png"
-    }
+    },
+    {
+        id: "PC_4",
+        name: "Black pearl",
+        desc: "Видеокарта: GeForce RTX 3050 6 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI PRO A520M-S\nНакопитель: 512 GB M.2 PCIe",
+        price: 83000,
+        image: "images/Black pearl.png"
+    },
+    {
+        id: "PC_5",
+        name: "Sea wind",
+        desc: "Видеокарта: GeForce RTX 5060 Ti INFINITY 3 OC 8 ГБ\nПроцессор: AMD Ryzen 5 7500F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MAXSUN eSport B650M WIFI ICE\nНакопитель: 1000 GB M.2 PCIe",
+        price: 83000,
+        image: "images/Sea wind.png"
+    },
 ];
 
 // ==== РЕНДЕР КАРТОЧЕК ====
