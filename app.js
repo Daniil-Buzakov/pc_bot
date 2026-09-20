@@ -26,18 +26,18 @@ const CATALOG = [
         image: "images/Gaming light2.jpg"
     },
     {
-        id: "office_basic",
-        name: "Office Basic",
-        desc: "i5-12400, 16GB DDR4, 512GB SSD, встроенная графика",
-        price: 55000,
-        image: "https://via.placeholder.com/400x200/2ecc71/ffffff?text=Office+Basic"
+        id: "PC_2",
+        name: "White Winter",
+        desc: "Видеокарта: Palit GeForce RTX 5060 Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: 16 GB ADATA XPG Lancer White\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель:M.2 NVМе SSD 500GB ADATA LEGEND 860",
+        price: 96500,
+        image: "images/White Winter.png"
     },
     {
-        id: "workstation",
-        name: "Workstation Ultra",
-        desc: "RTX 4090, Ryzen 9 7950X, 64GB DDR5, 2TB NVMe",
-        price: 420000,
-        image: "https://via.placeholder.com/400x200/e74c3c/ffffff?text=Workstation+Ultra"
+        id: "PC_3",
+        name: "Black Storm",
+        desc: "Видеокарта: MSI GeForce RTX 5050 8G SHADOW 2X OC\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 ГБ 3200 МГц Kingston HyperX FURY Black\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель:M.2 NVМе SSD Kingston 1000 Gb NV3 Blue",
+        price: 82000,
+        image: "images/Black Storm.png"
     }
 ];
 
