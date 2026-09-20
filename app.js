@@ -50,7 +50,7 @@ const CATALOG = [
         id: "PC_5",
         name: "Sea wind",
         desc: "Видеокарта: GeForce RTX 5060 Ti INFINITY 3 OC 8 ГБ\nПроцессор: AMD Ryzen 5 7500F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MAXSUN eSport B650M WIFI ICE\nНакопитель: 1000 GB M.2 PCIe",
-        price: 83000,
+        price: 146000,
         image: "images/Sea wind.png"
     },
 ];
