@@ -32,7 +32,7 @@ const CATALOG = [
         name: "White Winter",
         desc: "Видеокарта: GeForce RTX 5060 8 ГБ Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель: 512 GB M.2 PCIe",
         price: 110000,
-        image: "images/White Winter.png"
+        image: "images/White Winter.png",
         cpu: "i5_14400f",
         gpu: "rtx5060"
     },
@@ -41,7 +41,7 @@ const CATALOG = [
         name: "Black Storm",
         desc: "Видеокарта: GeForce RTX 5050 8 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель: 1000 GB M.2 PCIe",
         price: 106000,
-        image: "images/Black Storm.png"
+        image: "images/Black Storm.png",
         cpu: "ryzen5_5500",
         gpu: "rtx5050"
     },
@@ -50,7 +50,7 @@ const CATALOG = [
         name: "Black pearl",
         desc: "Видеокарта: GeForce RTX 3050 6 ГБ Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI PRO A520M-S\nНакопитель: 512 GB M.2 PCIe",
         price: 83000,
-        image: "images/Black pearl.png"
+        image: "images/Black pearl.png",
         cpu: "ryzen5_5500",
         gpu: "rrtx3050"
     },
@@ -59,7 +59,7 @@ const CATALOG = [
         name: "Sea wind",
         desc: "Видеокарта: GeForce RTX 5060 Ti INFINITY 3 OC 8 ГБ\nПроцессор: AMD Ryzen 5 7500F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MAXSUN eSport B650M WIFI ICE\nНакопитель: 1000 GB M.2 PCIe",
         price: 146000,
-        image: "images/Sea wind.png"
+        image: "images/Sea wind.png",
         cpu: "ryzen5_7500f",
         gpu: "rtx5060ti"
     },
