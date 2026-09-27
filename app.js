@@ -17,7 +17,7 @@ const CATALOG = [
         name: "Gaming rain",
         desc: "Видеокарта: NVIDIА GеFоrсе RТХ 3060 Тi Gigаbytе АОRUS Еlitе\nПроцессор: АМD Ryzеn 5 3600\nОЗУ: 16 GВ DDR4 Соrsаir Vеngеаnсе\nМатеринская плата: АSRосk В550 Рhаntоm Gаming 4\nНакопитель: M.2 NVМе SSD АDАТА Lеgеnd 710 512 GВ",
         price: 60000,
-        image: "images/Gaming rain.jpeg",
+        image: "images/Gaming rain.png",
         cpu: "ryzen5_3600",
         gpu: "rtx3060ti"
     },
@@ -26,7 +26,7 @@ const CATALOG = [
         name: "White Winter",
         desc: "Видеокарта: GeForce RTX 5060 8 GB Dual\nПроцессор: Intel Core i5-14400F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MSI B760 GAMING PLUS\nНакопитель: 512 GB M.2 PCIe",
         price: 110000,
-        image: "images/White Winter.jpeg",
+        image: "images/White Winter.png",
         cpu: "i5_14400f",
         gpu: "rtx5060"
     },
@@ -35,7 +35,7 @@ const CATALOG = [
         name: "Black Storm",
         desc: "Видеокарта: GeForce RTX 5050 8 GB Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI B550M PRO-VDH WIFI\nНакопитель: 1000 GB M.2 PCIe",
         price: 106000,
-        image: "images/Black Storm.jpeg",
+        image: "images/Black Storm.png",
         cpu: "ryzen5_5500",
         gpu: "rtx5050"
     },
@@ -44,7 +44,7 @@ const CATALOG = [
         name: "Black pearl",
         desc: "Видеокарта: GeForce RTX 3050 6 GB Dual\nПроцессор: AMD Ryzen 5 5500\nОЗУ: DDR4 16 GB 3200 МГц\nМатеринская плата: MSI PRO A520M-S\nНакопитель: 512 GB M.2 PCIe",
         price: 83000,
-        image: "images/Black pearl.jpeg",
+        image: "images/Black pearl.png",
         cpu: "ryzen5_5500",
         gpu: "rtx3050"
     },
@@ -53,7 +53,7 @@ const CATALOG = [
         name: "Sea wind",
         desc: "Видеокарта: GeForce RTX 5060 Ti INFINITY 3 OC 8 GB\nПроцессор: AMD Ryzen 5 7500F\nОЗУ: DDR5 16 GB 5600 МГц\nМатеринская плата: MAXSUN eSport B650M WIFI ICE\nНакопитель: 1000 GB M.2 PCIe",
         price: 146000,
-        image: "images/Sea wind.jpeg",
+        image: "images/Sea wind.png",
         cpu: "ryzen5_7500f",
         gpu: "rtx5060ti"
     },
@@ -62,7 +62,7 @@ const CATALOG = [
         name: "Game honey",
         desc: "Видеокарта: GeForce RTX 5060 GAMING OC V2 8 GB\nПроцессор: AMD Ryzen 5 9600X\nОЗУ:  DDR5 32 GB 6000 МГц\nМатеринская плата: GIGABYTE B850M FORCE\nНакопитель: 1000 GB M.2 PCIe",
         price: 136000,
-        image: "images/Game honey.jpeg",
+        image: "images/Game honey.png",
         cpu: "ryzen5_9600x",
         gpu: "rtx5060"
     },
@@ -71,7 +71,7 @@ const CATALOG = [
         name: "Darkness pro",
         desc: "Видеокарта: GeForce RTX 4060\nПроцессор: AMD Ryzen 5 8400F\nОЗУ:  DDR5 16 GB 6000 МГц\nМатеринская плата: GIGABYTE A620M H\nНакопитель: 1000 GB M.2 PCIe",
         price: 95000,
-        image: "images/Darkness pro.jpeg",
+        image: "images/Darkness pro.png",
         cpu: "ryzen5_8400f",
         gpu: "rtx4060"
     },
